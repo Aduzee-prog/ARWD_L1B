@@ -1,0 +1,19 @@
+.shield{
+    animation: float 10s infinite ease-in-out;
+}
+
+.col-lg-3:hover{
+    border:  3px solid black;
+    
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px) rotateY(360deg);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
